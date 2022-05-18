@@ -220,6 +220,7 @@ input, select, textarea {
 		footer > p {
 			font-size: 1.25em;
 		}
+		
 
 /* Container */
 
@@ -239,9 +240,9 @@ input, select, textarea {
 				width: 1200px;
 			}
 
-				.container.medium {
+				 .container.medium {
 					width: 900px;
-				}
+				} 
 
 		}
 
@@ -249,14 +250,14 @@ input, select, textarea {
 
 			.container {
 				width: 960px;
-			}
+			} 
 
-				.container.medium {
+				 .container.medium {
 					width: 720px;
 				}
 
 		}
-
+ 
 		@media screen and (max-width: 980px) {
 
 			.container {
@@ -267,7 +268,7 @@ input, select, textarea {
 					width: 75%;
 				}
 
-		}
+		} 
 
 		@media screen and (max-width: 736px) {
 
@@ -2126,14 +2127,14 @@ input, select, textarea {
 	}
 
 		#top .image {
-			border-radius: 100%;
-			width: 20em;
-			height: 20em;
+			/* border-radius: 50%; */
+			width: 40em;
+			height: 40em;
 			margin: 0;
 		}
 
 			#top .image img {
-				border-radius: 100%;
+				border-radius: 40%;
 			}
 
 		#top h1 {
@@ -2297,6 +2298,9 @@ input, select, textarea {
 			hr {
 				margin: 1.5em 0 2em 0;
 			}
+
+			
+		
 
 		/* Section/Article */
 
