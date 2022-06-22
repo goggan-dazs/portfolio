@@ -73,7 +73,13 @@ input, select, textarea {
 }
 
 /* Basic */
+	video {
+		margin-bottom: 40px;
+	}
 
+	.gaps {
+		margin-bottom: 40px;
+	}
 	html {
 		box-sizing: border-box;
 	}
